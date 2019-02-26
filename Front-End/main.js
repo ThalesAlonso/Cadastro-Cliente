@@ -11,9 +11,9 @@ const $area  = doc.querySelector('[data-js="txtArea"]');
 const $button = doc.querySelector('[data-js=button]');
 
 
-function validedName(name){
+function validedName($name){
     var regex = /^[a-zA-ZéúíóáÉÚÍÓÁèùìòàçÇÈÙÌÒÀõãñÕÃÑêûîôâÊÛÎÔÂëÿüïöäËYÜÏÖÄ\-\ \s]+$/;
-     if(name.match(regex)) {
+     if($name.match(regex)) {
          return false;
      } else { return true; }
   }
