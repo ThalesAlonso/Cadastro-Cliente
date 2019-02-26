@@ -3,14 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cadastro de Clientes</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    -->
+    <title>NewM</title>
 </head>
 <body>
-    <form action="submit" data-js="form">
-        <div>
+    <form>
+        <div class="jumbotron jumbotron-fluid">
         <h4>Nome</h4>
-        <input type="text" data-js="formName">
+        <input type="text" name="nome" autofocus  placeholder="Insira seu nome" data-js="formName">
         </div>
         <div>
         <h4>Nascimento</h4>
@@ -26,7 +30,7 @@
         </div>
         <div>
         <h4>E-mail</h4>
-        <input type="email" data-js="formMail">
+        <input type="email" placeholder="Insira seu e-mail" data-js="formMail">
         </div>
         <div>
          <h4>Observação</h4>
