@@ -12,32 +12,35 @@
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid">
-    <form>
+    <form  name="form-submit"  method="POST">
         <div>
         <h4>Nome</h4>
-        <input type="text" name="nome" autofocus  placeholder="Insira seu nome" data-js="formName">
+        <input type="text" name="nome" autofocus  placeholder="Insira seu nome" data-js="nome">
         </div>
         <div>
         <h4>Nascimento</h4>
-        <input type="date" data-js="formBorn">
+        <input type="date" data-js="Nascimento">
         </div>
         <div>
         <h4>CPF</h4>
-        <input type="number" data-js="formCPF">
+        <input type="number" data-js="CPF">
         </div>
         <div>
         <h4>Celular</h4>
-        <input type="tel" data-js="formPhone">
+        <input type="tel" data-js="Celular">
         </div>
         <div>
         <h4>E-mail</h4>
-        <input type="email" placeholder="Insira seu e-mail" data-js="formMail">
+        <input type="email" placeholder="Insira seu e-mail" data-js="mail">
         </div>
         <div>
          <h4>Observação</h4>
         <textarea rows="5" cols="33" data-js="txtArea">
         </textarea>
        </div>
+       <div class="button" data-js=button>
+         <button type="submit>">Enviar Cadastro</button>
+        </div>
     </form>
     </div>
     <script src="main.js"></script>
