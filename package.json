@@ -1,0 +1,23 @@
+{
+  "name": "thales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gerador-validador-cpf": "^3.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThalesAlonso/Cadastro-Cliente.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThalesAlonso/Cadastro-Cliente/issues"
+  },
+  "homepage": "https://github.com/ThalesAlonso/Cadastro-Cliente#readme"
+}

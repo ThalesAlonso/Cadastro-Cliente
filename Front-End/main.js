@@ -27,7 +27,8 @@ function validedName($name){
        return true; 				}	}else{		return false;		}}
 
 // função para validar CPF via NPM 
-   CPF.validate();
+//CPF.validate($cpf);
+   
 
 
 

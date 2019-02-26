@@ -1,0 +1,45 @@
+form {
+    /* centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+div + div {
+    margin-top: 1em;
+  }
+  
+  
+  input, textarea {
+    font: 1em sans-serif;
+    /* Deixar todos os CAMPOS com o mesmo tamnnho proporcional */
+    width: 300px;
+  
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+  
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /*realçar campos ativos */
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+      height: 5em;
+    resize: vertical;
+  }
+  
+  .button {
+    /*Deixar deixar botões na mesma poscição dos inputs */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    margin-left: .5em;
+  }
