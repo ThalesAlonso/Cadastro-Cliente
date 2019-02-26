@@ -26,6 +26,9 @@ function validedName($name){
      }else if(typeof(mail) == "object"){		if(er.test(mail.value)){
        return true; 				}	}else{		return false;		}}
 
+// função para validar CPF via NPM 
+   CPF.validate();
+
 
 
 
