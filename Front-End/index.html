@@ -10,6 +10,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script src="node_modules/gerador-validador-cpf/dist/js/CPF.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
 
  <!---->
     <title>NewM</title>
@@ -19,7 +20,7 @@
     <form  name="form-submit"  method="POST">
         <div>
         <h4>Nome</h4>
-        <input type="text" name="nome" autofocus  placeholder="Insira seu nome" data-js="nome">
+        <input type="text" required="required" autofocus  placeholder="Insira seu nome" data-js="nome">
         </div>
         <div>
         <h4>Nascimento</h4>
@@ -31,11 +32,11 @@
         </div>
         <div>
         <h4>Celular</h4>
-        <input type="tel"   maxlength="15" data-js="Celular">
+        <input type="tel" required="required"  maxlength="15"  placeholder="(XX) 9XXXX-XXXX)" data-js="Celular">
         </div>
         <div>
         <h4>E-mail</h4>
-        <input type="email" placeholder="Insira seu e-mail" data-js="mail">
+        <input type="email" placeholder="thales@example.com" data-js="mail">
         </div>
         <div>
          <h4>Observação</h4>
