@@ -23,7 +23,9 @@
  the code.
 command to upload the server <strong>python -m SimpleHTTPServer 9001</strong>
 </p>
-
+<p>To access the front-end part you need to go to the project folder, for example:
+ <strong>http://localhost:9001/Front-End/</strong>
+</p>
 
 
 
