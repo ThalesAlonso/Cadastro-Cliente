@@ -1,44 +1,58 @@
-<h1>Customer Registration </h1>
-<p>Developed in the Front End part with HTML5, CSS3 and JavaScript</p>
-<p>In the part of Back-End still under construction will be developed in PHP with database Mysql or Postgres</p>
-<p>Database with a customer table with the following attributes:</p>
- <p>-Nome</p>
-  <p>-Nascimento</p>
-  <p>-CPF</p>
-  <p>-Celular</p>
-  <p>-E-mail</p>
-  <p>-Observacao</p>
+# Customer Registration
+
+Developed in the **Front End** part with **HTML5, CSS3 and JavaScript**
+In the part of Back-End still under ***construction will be developed in PHP 7.2 with database Mysql or Postgres***
+Database with a customer table with the following attributes:
+
+  
+   |clientes ||
+   |-----|----------|
+   |nome|  varchar |
+   |datanascimento| timestamp| 
+   |cpf  |  int |
+   |celular |int |
+   |e-mail|varchar|
+   |observacao| varchar|
 
 
-<h2>Use</h2>
-<h2> Getting Started</h2>
-<h2>Prerequisites</h2>
-<p>You'll need to have Node on your machine. We recommend to use Node >= 6 and npm >= 3 for faster installation speed and better disk usage. (you can use yarn too).</p>
-<p>It is necessary to have Node.js installed, because a Js lib is used to validate the CPF</p>
-<p><strong>npm install gerador-validador-cpf --save</strong></p>
-<p>Include the file in the footer of your page, as in the example.<p/>
-<p><script src="node_modules/gerador-validador-cpf/dist/js/CPF.js"></script></p>
-<p>Apache2 + PHP 7.2 or highe</p>
-<p>If I have Python installed on the machine, I suggest uploading a server to view in realtime
+## Getting Started
+### Prerequisites
+
+You'll need to have Node on your machine. We recommend to use **Node >= 6 and npm >= 3** for faster installation speed and better disk usage. (you can use yarn too).
+It is necessary to have Node.js installed, because a ***Js lib is used to validate the CPF***
+
+```node
+npm install gerador-validador-cpf --save
+```
+
+> Include the file in the footer of your page, as in the example.
+
+```html
+<script src="node_modules/gerador-validador-cpf/dist/js/CPF.js"></script>
+```
+
+ #### Apache2 + PHP 7.2 or highe
+ If I have Python installed on the machine, I suggest uploading a server to view in realtime
  the code.
-command to upload the server <strong>python -m SimpleHTTPServer 9001</strong>
-</p>
-<p>To access the front-end part you need to go to the project folder, for example:
- <strong>http://localhost:9001/Front-End/</strong>
-</p>
+ command to upload the server ```python -m SimpleHTTPServer 9001```
+
+ To access the front-end part you need to go to the project folder, for example:
+ http://localhost:9001/Front-End/
 
 
 
-<h2> Contributing </h2>
-<p>Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.</p>
 
-<h1> Versioning </h1>
-<p>We use Git for versioning this repository.</p>
+#### Contributing 
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-<h2> Authors </h2>
-<p>Thales Alonso </p>
+#### Versioning
+ We use **Git** for versioning this repository.
 
-<h2> License </h2>
-<p>This project is licensed under the MIT License - see the LICENSE.md file for details</p>
+## Author
+[Thales Alonso](https://twitter.com/thalesalonsoo)
 
-<h2>Acknowledgments</h2>
+## License
+[MIT](https://github.com/ThalesAlonso/Cadastro-Cliente/blob/master/LICENSE)
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+### Acknowledgments
