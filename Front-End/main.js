@@ -17,9 +17,9 @@ const $button = doc.querySelector('[data-js=button]');
     $('.name').on('blur keydown keyup keypress paste', function(){
        setAlertMessage( $(this).is(':valid') ? 
            "" : 
-           "Este campo não pode conter caracteres especiais.");
+          "Este campo não pode conter caracteres especiais.");
     });
-            
+        
     function setAlertMessage(message){
        $('.message').html(message);
     }
