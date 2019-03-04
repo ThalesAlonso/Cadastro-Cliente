@@ -1,3 +1,18 @@
+
+input {
+  border: 2px solid #ccc;
+  padding: 6px;
+  width: 300px
+}
+
+/*
+ * será aplicado automaticamente quando
+ * o input for invalido */
+input:invalid {
+  box-shadow: none;
+  border-color: red
+}
+
 form {
     /* centralizar o form na página */
     margin: 0 auto;

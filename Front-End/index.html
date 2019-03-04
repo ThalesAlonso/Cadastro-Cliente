@@ -20,7 +20,8 @@
     <form  name="form-submit"  method="POST">
         <div>
         <h4>Nome</h4>
-        <input type="text" required="required" autofocus  placeholder="Insira seu nome" data-js="nome">
+        <input type="text" class="name" pattern="^[a-zA-Z0-9]+$" autofocus  placeholder="Insira seu nome" data-js="nome">
+        <p class='message'></p>
         </div>
         <div>
         <h4>Nascimento</h4>

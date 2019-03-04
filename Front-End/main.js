@@ -11,12 +11,19 @@ const $area  = doc.querySelector('[data-js="txtArea"]');
 const $button = doc.querySelector('[data-js=button]');
 
 
-function validedName(name){
-    var regex = /^[a-zA-ZéúíóáÉÚÍÓÁèùìòàçÇÈÙÌÒÀõãñÕÃÑêûîôâÊÛÎÔÂëÿüïöäËYÜÏÖÄ\-\ \s]+$/;
-     if(name.match(regex)) {
-         return false;
-     } else { return true; }
-  }
+// Function valided Name
+
+  $(function(){
+    $('.name').on('blur keydown keyup keypress paste', function(){
+       setAlertMessage( $(this).is(':valid') ? 
+           "" : 
+           "Este campo não pode conter caracteres especiais.");
+    });
+            
+    function setAlertMessage(message){
+       $('.message').html(message);
+    }
+  });
 
 
   function checkMail(mail){
